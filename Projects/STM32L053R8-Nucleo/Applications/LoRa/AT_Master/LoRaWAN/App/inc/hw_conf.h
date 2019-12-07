@@ -107,14 +107,14 @@ extern "C" {
 
 /* --------Preprocessor compile swicth------------ */
 /* debug swicthes in debug.h */
-/*#define DEBUG */
-/*#define TRACE */
+#define DEBUG 
+#define TRACE 
 
 /* uncomment below line to never enter lowpower modes in main.c*/
-/*#define LOW_POWER_DISABLE */
+#define LOW_POWER_DISABLE 
 
 /* debug swicthes in bsp.c */
-/*#define SENSOR_ENABLED */
+#define SENSOR_ENABLED 
 
 /*UART used : USART2 or LPUART1 - if LPUART1 used comment the USE_USART2*/
 #define USE_USART2 1
