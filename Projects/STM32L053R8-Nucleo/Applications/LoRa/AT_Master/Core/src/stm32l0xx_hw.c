@@ -34,6 +34,7 @@ Maintainer: Miguel Luis and Gregory Cristian
 #include "hw.h"
 #include "debug.h"
 #include "bsp.h"
+#include "console.h"
 #include ATCMD_MODEM        /* preprocessing definition in hw_conf.h*/
 
 
@@ -100,6 +101,8 @@ void HW_Init(void)
     /* Set the Vector Table base location at 0x3000 */
     NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x3000);
 #endif
+		initConsole();
+		printf("test");
 
     /*HW_AdcInit( ); */   /*needed if application does battery level request to the host*/
     /*here host request battery level to the slave*/

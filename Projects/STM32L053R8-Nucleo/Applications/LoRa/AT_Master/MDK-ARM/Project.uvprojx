@@ -701,6 +701,11 @@
               <FileType>1</FileType>
               <FilePath>../../../../../../Drivers/BSP/STM32L0xx_Nucleo/stm32l0xx_nucleo.c</FilePath>
             </File>
+            <File>
+              <FileName>console.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\console.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1677,6 +1682,11 @@
               <FileName>stm32l0xx_nucleo.c</FileName>
               <FileType>1</FileType>
               <FilePath>../../../../../../Drivers/BSP/STM32L0xx_Nucleo/stm32l0xx_nucleo.c</FilePath>
+            </File>
+            <File>
+              <FileName>console.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\console.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2723,6 +2733,11 @@
               <FileName>stm32l0xx_nucleo.c</FileName>
               <FileType>1</FileType>
               <FilePath>../../../../../../Drivers/BSP/STM32L0xx_Nucleo/stm32l0xx_nucleo.c</FilePath>
+            </File>
+            <File>
+              <FileName>console.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\Drivers\BSP\STM32L0xx_Nucleo\console.c</FilePath>
             </File>
           </Files>
         </Group>
