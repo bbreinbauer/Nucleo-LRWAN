@@ -2,7 +2,11 @@
 *.d
 
 # Object files
+Projects/STM32L053R8-Nucleo/Applications/LoRa/End_Node/MDK-ARM/sx1276mb1mas/*
+Projects/STM32L053R8-Nucleo/Applications/LoRa/End_Node/MDK-ARM/sx1272mb2das/*
+
 *.o
+*.crf
 *.ko
 *.obj
 *.elf
