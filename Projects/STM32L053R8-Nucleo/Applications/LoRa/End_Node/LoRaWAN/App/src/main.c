@@ -346,6 +346,8 @@ static void Send(void *context)
 #endif  /* REGION_XX915 */
 #endif  /* CAYENNE_LPP */
   AppData.BuffSize = i;
+	
+	AppData.BuffSize = sprintf((char*)&AppData.Buff, "-Hello World");
 
   LORA_send(&AppData, LORAWAN_DEFAULT_CONFIRM_MSG_STATE);
 
